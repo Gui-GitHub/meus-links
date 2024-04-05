@@ -45,11 +45,12 @@
     }
 
     .cabecalho{
-        width: 100%;
+        max-width: 100%;
     }
-
+    
     .cabecalho__menu__link{
         font-size: 21px;
+
     }
 
     .cabecalho__menu__link:hover{
