@@ -5,7 +5,7 @@
     --cor_primaria:black;
     --cor_secundaria:white;
     --cor_terciaria: #5483b3;
-    --cor_hover: #021024;
+    --cor0: #021024;
     --cor1: #010a16;
     --cor2: #052659;
     --cor3: #1b355d;
@@ -43,7 +43,6 @@ body {
     color:  var(--cor_primaria);
     text-decoration: none;
     position: relative;
-
 }
 
 .cabecalho__menu__link:hover{
@@ -187,7 +186,7 @@ body {
 .switch {
     position: relative;
     display: inline-block;
-    width: 60px;
+    width: 50px;
     height: 34px;
   }
   
@@ -233,12 +232,12 @@ body {
   }
   
   input:checked + .slider:before {
-    transform: translateX(26px);
+    transform: translateX(16px);
   }
 
   /* Estilo para o modo noturno */
 .modo-noturno {
-    background-color: var(--cor_hover);
+    background-color: var(--cor0);
     color: var(--cor_secundaria);
 }
 
@@ -254,7 +253,7 @@ body {
 
 .modo-noturno .apresentacao__links__link:hover{
     border: 3px solid var(--cor_secundaria);
-    background-color: var(--cor_hover);
+    background-color: var(--cor0);
 }
 
 .modo-noturno .img_dev {
