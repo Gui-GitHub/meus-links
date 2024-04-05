@@ -28,7 +28,8 @@ body {
 
 .cabecalho{
     padding: 2% 5%;
-  max-width: 90%;
+    margin: auto;
+    max-width: 90%;
 }
 
 .cabecalho__menu{
@@ -37,7 +38,7 @@ body {
 }
 
 .cabecalho__menu__link{
-    font-size: 18px;
+    font-size: 19px;
     font-family: "Kanit", sans-serif;
     color:  var(--cor_primaria);
     text-decoration: none;
@@ -46,7 +47,7 @@ body {
 }
 
 .cabecalho__menu__link:hover{
-    font-size: 18px;
+    font-size: 19px;
     font-family: "Kanit", sans-serif;
     color:  var(--cor2);
     text-decoration: none;
